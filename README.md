@@ -1,7 +1,7 @@
 # Surpresa para Madrinha de Sala
 
 ## Descrição
-Esse projeto foi feito para criar um site simples para fazer uma surpresa para a madrinha de sala do Curso Técnico de Desenvolvimento de Sistemas.
+Projeto feito para criar um site simples para fazer uma surpresa para a madrinha de sala do Curso Técnico de Desenvolvimento de Sistemas.
 
 ## Estrutura
 Consiste de dois arquivos principais: 
