@@ -1,0 +1,225 @@
+.navbar {
+    background-color: rgb(92, 172, 87);
+    border-radius: 25px;
+    position: sticky;
+    overflow: hidden;
+    top: 8px;
+    z-index: 1
+}
+.navbar a {
+    -webkit-text-stroke: 0.15px;
+    text-decoration: none;
+    text-align: center;
+    font-family: Arial;
+    display: block;
+    color: rgb(0, 0, 0);
+    padding: 14px;
+    float: left;
+}
+.navbar a:hover {
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0.25);
+}
+.navbar a.log {
+    background-color: rgb(92, 200, 87);
+    border-color: rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
+    color: rgb(0, 0, 0);
+    float: right;
+}
+.navbar a.log:hover {
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0.25);
+}
+.navbarlog {
+    display: block;
+    border-radius: 25px;
+    width: 147px;
+    height: auto;
+    position: fixed;
+    overflow: hidden;
+    top: 45px;
+    left: 50px;
+    z-index: 1
+}
+.navbarlog a {
+    -webkit-text-stroke: 0.5px;
+    text-decoration: none;
+    text-align: center;
+    font-family: Arial;
+    display: block;
+    font-size: 32px;
+    color: rgb(0, 0, 0);
+    padding: 14px;
+    float: left;
+}
+.navbarlog a:hover {
+    border-radius: 25px;
+    background-color: rgba(93, 172, 87, 0.5);
+}
+.grid {
+    align-self: center;
+    justify-self: center;
+    padding-top: 25px;
+    display: grid;
+    max-width: 100%;
+    grid-template-columns: 800px auto;
+    grid-template-rows: auto auto auto;
+    z-index: 0;
+}
+.row {
+    color: black;
+    font-family: Arial;
+    font-size: 40px;
+    transition: transform .3s;
+    margin-bottom: 50px;
+    width: 700px;
+    text-align: justify;
+    text-decoration: none
+}
+.row:hover {
+    text-decoration: underline;
+    transform: scale(1.05)
+}
+.image {
+    padding-bottom: 10px;
+    border-radius: 25px;
+    max-width: 700px;
+    max-height: 400px;
+    width: 700px;
+    height: 400px;
+}
+.sign {
+    display: block;
+    background-color: rgb(106, 168, 103);
+    border-radius: 25px;
+    padding-top: 50px;
+    padding-bottom: 35px;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.sign .hea {
+    margin: 0;
+    font-family: Arial;
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+}
+.sign .pag {
+    margin-bottom: 50px;
+    font-family: Arial;
+    font-size: 16px;
+}
+.sign .in {
+    font-family: Arial;
+    font-size: 18px;
+    text-align: center;
+    width: 399px;
+    height: 35px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+}
+.sign label {
+    font-family: Arial;
+    font-size: 18px;
+}
+.sign .but {
+    background-color: white;
+    font-family: Arial;
+    font-size: 20px;
+    text-align: center;
+    width: 100px;
+    height: 40px;
+    border-radius: 25px;
+}
+.sign .in:hover {
+    background-color: rgba(220, 255, 219, 0.7);
+}
+.sign .but:hover {
+    background-color: rgba(220, 255, 219, 0.7);
+}
+.overlay {
+    display: none;
+    z-index: 2;
+    background-color: rgb(255, 137, 137);
+    border-radius: 25px;
+    padding-top: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}      
+.overlay .hea {
+    font-family: Arial;
+    font-size: 50px;
+}
+.overlay .but {
+    background-color: white;
+    font-family: Arial;
+    font-size: 20px;
+    text-align: center;
+    width: 185px;
+    height: 40px;
+    border-radius: 25px;
+}
+.overlay .but:hover {
+    background-color: rgba(255, 241, 241, 0.7);
+}
+.surprise {
+    display: none;
+    z-index: 3;
+    background-color: rgb(106, 200, 103);
+    border-radius: 25px;
+    padding-top: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}      
+.surprise .hea {
+    font-family: Arial;
+    font-size: 50px;
+}
+.surprise .but {
+    margin-right: 10px;
+    background-color: white;
+    font-family: Arial;
+    font-size: 20px;
+    text-align: center;
+    width: 60px;
+    height: 40px;
+    border-radius: 25px;
+}
+.surprise .butt {
+    background-color: white;
+    font-family: Arial;
+    font-size: 20px;
+    text-align: center;
+    width: 135px;
+    height: 40px;
+    border-radius: 25px;
+}
+.surprise .but:hover {
+    background-color: rgba(220, 255, 219, 0.7);
+}
+.surprise .butt:hover {
+    background-color: rgba(220, 255, 219, 0.7);
+}

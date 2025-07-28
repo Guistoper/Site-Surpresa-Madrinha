@@ -1,0 +1,60 @@
+<htmL>
+    <link rel="stylesheet" href="styles.css">
+    <head>
+        <title>
+            Sign In- Appletre
+        </title>
+    </head>
+    <body>
+        <div class="navbarlog">
+            <a href="main.html">appletre</a>
+        </div>
+        <div class="sign">
+            <h1 class="hea">Faça seu cadastro!</h1>
+            <p class="pag">Já tem uma conta? <a href="#login">Entrar.</a></p>
+            <form action="javascript: Onverone()"> 
+                <label for="text">Nome:</label>
+                <input type="text" class="in" required><br>
+                <label for="email">Email:</label>
+                <input type="email" class="in" required><br>
+                <input type="submit" class="but" value="Próximo">
+            </form>
+        </div>
+        <div class="overlay">
+            <h1 class="hea">Error 404 - Not Found</h1>
+            <input type="button" class="but" value="Tentar novamente" onclick="Onvertwo()">
+        </div>
+        <div class="surprise">
+            <h1 class="hea">ÉRIKA, <br>Você está sendo CONVOCADA para ser MADRINHA do 3ºTA</h1>
+            <input type="button" class="but" value="Sim" onclick="snd()">
+            <input type="button" class="butt" value="Com certeza" onclick="snd()">
+        </div>
+    </body>
+    <script>
+        function wait(ms){
+            var start = new Date().getTime();
+            var end = start;
+            while(end < start + ms) {
+                end = new Date().getTime();
+            }
+        }
+        function Onverone() {
+            var snd = new Audio("error.wav")
+            document.querySelector('.sign').style.display = 'none';
+            document.querySelector('.navbarlog').style.display = 'none';
+            document.querySelector('.overlay').style.display = 'block';
+            snd.play()
+        }
+        function Onvertwo() {
+            var snd = new Audio("party.wav")
+            document.querySelector('.overlay').style.display = 'none';
+            document.querySelector('.surprise').style.display = 'block';
+            wait(5000)
+            snd.play()
+        }
+        function snd() {
+            var snd = new Audio("party.wav")
+            snd.play()
+        }
+    </script>
+</htmL>
