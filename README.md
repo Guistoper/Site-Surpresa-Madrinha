@@ -20,7 +20,6 @@ Consiste de dois arquivos principais:
 
 ## Description
 Project created to build a simple website as a surprise for the Classroom Godmother of the Technical Course in Systems Development.
-Structure
 
 ## Structure 
 It consists of two main files:
