@@ -33,4 +33,4 @@ The project consists of three main files:
 
 - **HTML**: Markup language used to build the main elements of the site, such as text, layout, and more.
 - **CSS**: Styling language used to style the HTML elements, modifying position, shape, interaction, and more.
-- **JavaScript**: Programming language used to add effects — present only in sign.html — including a fake crash and button sound effects.
+- **JavaScript**: Programming language used to add effects — present only in `sign.html` — including a fake crash and button sound effects.
