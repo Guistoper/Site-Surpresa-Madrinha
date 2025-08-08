@@ -25,7 +25,7 @@ Project created to build a simple website as a surprise for the Classroom Godmot
 ## Structure
 The project consists of three main files:
 
-- `main.html`: The first page of the site, a news screen where clicking on the news items redirects to sign.html.
+- `main.html`: The first page of the site, a news screen where clicking on the news items redirects to `sign.html`.
 - `sign.html`: The second page of the site, a basic login screen that triggers a (planned) error and then displays a surprise message.
 - `styles.css`: File where the site’s styling is stored.
 
